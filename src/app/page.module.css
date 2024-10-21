@@ -1,0 +1,49 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #e41515;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #4c4b53;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f6f0f0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #f3efef;
+}
